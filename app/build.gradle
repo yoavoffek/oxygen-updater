@@ -18,15 +18,15 @@ android {
 	defaultConfig {
 		applicationId 'com.arjanvlek.oxygenupdater'
 		minSdkVersion 21
-		targetSdkVersion 28
+		targetSdkVersion 29
 		versionCode 61
 		versionName '3.6.0'
 		testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 		proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 	}
 
-	compileSdkVersion 28
-	buildToolsVersion '28.0.3'
+	compileSdkVersion 29
+	buildToolsVersion '29.0.2'
 	packagingOptions {
 		exclude 'META-INF/NOTICE.txt'
 		exclude 'META-INF/LICENSE.txt'
@@ -170,8 +170,8 @@ repositories {
 dependencies {
 	implementation fileTree(include: ['*.jar'], dir: 'libs')
 
-	compileOnly 'org.projectlombok:lombok:1.18.8'
-	annotationProcessor 'org.projectlombok:lombok:1.18.8'
+	compileOnly 'org.projectlombok:lombok:1.18.10'
+	annotationProcessor 'org.projectlombok:lombok:1.18.10'
 
 	// AndroidX: https://developer.android.com/jetpack/androidx/releases
 	// https://developer.android.com/jetpack/androidx/releases/appcompat
@@ -196,12 +196,12 @@ dependencies {
 	implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.9.2'
 
 	// Date and time libraries
-	implementation 'joda-time:joda-time:2.10.3'
+	implementation 'joda-time:joda-time:2.10.5'
 	implementation 'org.joda:joda-convert:2.2.1'
 
 	// Google Firebase
 	// https://firebase.google.com/support/release-notes/android
-	implementation 'com.google.firebase:firebase-ads:18.2.0'
+	implementation 'com.google.firebase:firebase-ads:18.3.0'
 	implementation 'com.google.firebase:firebase-messaging:20.0.0'
 	implementation 'com.google.android.gms:play-services-base:17.1.0'
 	implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'

@@ -47,7 +47,6 @@ public class Utils {
 		}
 	}
 
-	@SuppressWarnings("unused")
 	public static float dpToPx(@NonNull Context context, @Dimension(unit = Dimension.DP) float dp) {
 		return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, context.getResources().getDisplayMetrics());
 	}
@@ -55,6 +54,15 @@ public class Utils {
 	@SuppressWarnings("unused")
 	public static float spToPx(@NonNull Context context, @Dimension(unit = Dimension.SP) float sp) {
 		return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp, context.getResources().getDisplayMetrics());
+	}
+
+	public static int getStatusBarHeight(@NonNull Context context) {
+		int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
+		if (resourceId > 0) {
+			return context.getResources().getDimensionPixelSize(resourceId);
+		}
+
+		return 0;
 	}
 
 	public static boolean checkNetworkConnection(Context context) {
