@@ -1,124 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<!-- Application title, Main activity title-->
-	<string name="app_name">Oxygen Updater</string>
-	<string name="launcher_app_name">Oxygen Updater</string>
+	<string name="app_name">מעדכן אוקסיג'ן</string>
+	<string name="launcher_app_name">מעדכן אוקסיג'ן</string>
 
 	<!-- Update information strings-->
-	<string name="update">Update</string>
-	<string name="update_information_close">Close</string>
-	<string name="update_information_description_not_available">There is no official information about the new features this update provides. Usually, such an update provides bug fixes, performance enhancements, and / or critical security updates for your device.</string>
-	<string name="update_information_file_name">File name: %1$s</string>
-	<string name="update_information_for">for</string>
-	<string name="update_information_header">Update</string>
-	<string name="update_information_header_short">Update</string>
-	<string name="update_information_installed_update">The latest system update is:</string>
-	<string name="update_information_last_checked_on">Last checked on: %1$s</string>
-	<string name="update_information_latest_available_update">New system update available</string>
-	<string name="update_information_no_update_data_available">No update information is available</string>
-	<string name="update_information_oxygen_os_version">Oxygen OS Version: %1$s</string>
-	<string name="update_information_system_is_up_to_date">Your system is up to date</string>
-	<string name="update_information_unknown_update_name">Unnamed update for %1$s</string>
-	<string name="update_information_version">&#160;version:</string>
-	<string name="update_information_view_update_information">View update information</string>
+	<string name="update">עדכון</string>
+	<string name="update_information_close">סגור</string>
+	<string name="update_information_description_not_available">.אין בשלב זה מידע רשמי על התכונות החדשות שנוספו בעדכון זה. בדרך כלל עדכון מסוג זה כולל תיקוני באגים, שיפור החומרה של הטלפון, ו/או עדכוני אבטחה הנחוצים למכשיר</string>
+	<string name="update_information_file_name">sשם הקובץ: $1%</string>
+	<string name="update_information_for">עבור</string>
+	<string name="update_information_header">עדכון</string>
+	<string name="update_information_header_short">עדכון</string>
+	<string name="update_information_installed_update">:עדכון התוכנה העדכני ביותר הוא</string>
+	<string name="update_information_last_checked_on">נבדק לאחרונה ב: %1$s</string>
+	<string name="update_information_latest_available_update">עדכון תוכנה חדש זמין להורדה</string>
+	<string name="update_information_no_update_data_available">אין עדכון תוכנה חדש בזמן זה</string>
+	<string name="update_information_oxygen_os_version">מספר מערכת ההפעלה של אוקסיג'ן: %1$s</string>
+	<string name="update_information_system_is_up_to_date">מערכת ההפעלה שלך נמצאת בגרסה הכי עדכנית</string>
+	<string name="update_information_unknown_update_name">עדכון תוכנה לא ידוע עבור %1$s</string>
+	<string name="update_information_version">&#160;גרסת אוקסיג'ן:</string>
+	<string name="update_information_view_update_information">צפה במידע על העדכון</string>
 
 	<!-- Server status warning strings -->
-	<string name="server_status_error">Some features do not work.</string>
-	<string name="server_status_unreachable">The server can\'t be reached. Try refreshing the page.</string>
-	<string name="server_status_warning">Some features may not work properly.</string>
+	<string name="server_status_error">.מאפיינים מסויימים אינם עובדים</string>
+	<string name="server_status_unreachable">.הייתה בעיה בחיבור לשרת. נסה לרענן את העמוד</string>
+	<string name="server_status_warning">.מאםיינים מסויימים עלולים לא לעבוד</string>
 
 	<!-- New app version message strings -->
-	<string name="new_app_version">App update available! Version &lt;a href="https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater">%1$s&lt;/a> has been released!</string>
+	<string name="new_app_version">!ישנו עדכון תוכנה חדש לאפליקצייה זו &lt;a href="https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater">%1$s&lt;/a> has been released!</string>
 
 	<!-- Date and time strings -->
-	<string name="time_at">at</string>
-	<string name="time_today">Today</string>
-	<string name="time_yesterday">Yesterday</string>
+	<string name="time_at">-ב</string>
+	<string name="time_today">היום</string>
+	<string name="time_yesterday">אתמול</string>
 
 	<!-- Downloader strings-->
-	<string name="download">Download</string>
-	<string name="downloaded">Downloaded</string>
-	<string name="downloading">Downloading…</string>
-	<string name="paused">Paused</string>
+	<string name="download">הורד עכשיו</string>
+	<string name="downloaded">הקובץ הורד</string>
+	<string name="downloading">…מוריד</string>
+	<string name="paused">ההורדה נעצרה</string>
 
-	<string name="download_already_downloaded">The update was already downloaded. It is ready to get installed.</string>
-	<string name="download_complete">Download complete</string>
-	<string name="download_complete_notification">Download complete. Tap to start the installation.</string>
+	<string name="download_already_downloaded">.העדכון כבר הורד לטלפון וכעת הוא מוכן להורדה</string>
+	<string name="download_complete">ההורדה הושלמה</string>
+	<string name="download_complete_notification">.ההורדה הושלמה. לחץ כאן כדי להתחיל את תהליך ההתקנה</string>
 
-	<string name="download_description">Oxygen Updater</string>
+	<string name="download_description">מעדכן אוקסיג'ן</string>
 
-	<string name="download_error">Download Error</string>
-	<string name="download_error_close">CLOSE</string>
-	<string name="download_error_corrupt">The downloaded update file is damaged! Please try downloading it again.</string>
+	<string name="download_error">תקלה בהורדה</string>
+	<string name="download_error_close">סגור</string>
+	<string name="download_error_corrupt">.קובץ העדכון שהורדת שבור! אנא נסה להוריד אותו מחדש</string>
 	<!-- TODO translate the 3 below to Russian -->
-	<string name="download_error_network">A network error occurred while downloading the update. The download will resume automatically.</string>
-	<string name="download_error_server">A server error occurred while downloading the update. Please try downloading the update again.</string>
-	<string name="download_error_internal">Unfortunately, a technical error occurred while downloading the update. Try downloading it again. If this keeps occurring, please contact the developer of this app for assistance.</string>
+	<string name="download_error_network">.הייתה תקלה בחיבורך לרשת האינטרנט. ההורדה תמשיך אוטומטית ברגע שתתחבר מחדש לאינטרנט</string>
+	<string name="download_error_server">.קרתה תקלה בחיבור לשרת. אנא נסה להוריד את הקובץ מחדש</string>
+	<string name="download_error_internal">.לצערינו קרתה תקלה טכנית בזמן הורדת הקובץ. נסה להורידו מחדש. אם תקלה זו ממשיכה, פנה למפתח האפליקציה בכדי שיעזור לך לפתור את הבעיה</string>
 
 	<string name="download_error_retry">RETRY</string>
 	<string name="download_error_resume">RESUME</string>
-	<string name="download_error_storage">There is insufficient storage space available on your device to download the update. Please remove some files and try downloading it again.</string>
+	<string name="download_error_storage">.אין מספיק אחסון במכשירך בכדי להוריד עדכון זה. אנא מחק קבצים ממכשירך ונסה להוריד את העדכון שוב</string>
 
-	<string name="download_failed">Download failed</string>
-	<string name="download_in_background">Oxygen Updater is running in the background</string>
-	<string name="download_oxygen_os">Oxygen OS Version</string>
-	<string name="download_pending">Your download will start soon…</string>
-	<string name="download_permissions">Tap Download again to download the update.</string>
+	<string name="download_failed">ההורדה נכשלה</string>
+	<string name="download_in_background">Oxygen Updater רץ ברקע</string>
+	<string name="download_oxygen_os">Oxygen OS גרסת</string>
+	<string name="download_pending">ההורדה תחל בעוד זמן קצר…</string>
+	<string name="download_permissions">לחץ שנית בכדי להוריד את העדכון.</string>
 
 	<!-- TODO translate the 3 below to Russian -->
-	<string name="download_notification_error_network">Download paused due to lost connection. Will resume soon.</string>
-	<string name="download_notification_error_server">Server error while downloading. Please restart the download.</string>
-	<string name="download_notification_error_internal">Technical error while downloading. Restart the download or contact support.</string>
-	<string name="download_notification_error_storage_full">Insufficient storage space.</string>
-	<string name="download_notification_error_corrupt">File verification failed. Check your connection and try again.</string>
+	<string name="download_notification_error_network">.ההורדה פסקה בשל חוסר בחיבור לאינטרנט. ההורדה תחודש בעוד זמן קצר</string>
+	<string name="download_notification_error_server">.תקלה בשרת גרמה לביטול ההורדה. אנא הורד את הקובץ מחדש</string>
+	<string name="download_notification_error_internal">.תקלה טכנית בעת ההורדה. חדש את ההורדה או פנה לשירות הלקוחות</string>
+	<string name="download_notification_error_storage_full">.מחסור באחסון זמין</string>
+	<string name="download_notification_error_corrupt">.אימות הקובץ נכשל. בדוק את חיבורך לאינטרנט ונסה שנית</string>
 
-	<string name="download_progress_text_hours_remaining">%1$d%%, about %2$d hours remaining</string>
-	<string name="download_progress_text_less_than_a_minute_remaining">%1$d%%, less than a minute remaining</string>
-	<string name="download_progress_text_minutes_remaining">%1$d%%, about %2$d minutes remaining</string>
-	<string name="download_progress_text_one_hour_remaining">%1$d%%, about 1 hour remaining</string>
-	<string name="download_progress_text_one_minute_remaining">%1$d%%, about a minute remaining</string>
-	<string name="download_progress_text_seconds_remaining">%1$d%%, a few seconds remaining</string>
-	<string name="download_progress_text_unknown_time_remaining">%1$d%%, calculating time remaining…</string>
-	<string name="download_progress_text_verifying">100%, verifying file…</string>
-	<string name="download_progress_text_paused">%1$d%%, paused</string>
-	<string name="download_waiting_for_network">%1$d%%, waiting for a network connection…</string>
+	<string name="download_progress_text_hours_remaining">%1$d%%, כ- %2$d שעות נותרו</string>
+	<string name="download_progress_text_less_than_a_minute_remaining">%1$d%%, פחות מדקה נותרה</string>
+	<string name="download_progress_text_minutes_remaining">%1$d%%, כ- %2$d דקות נותרו</string>
+	<string name="download_progress_text_one_hour_remaining">%1$d%%, נותרה כשעה</string>
+	<string name="download_progress_text_one_minute_remaining">%1$d%%, נותרה כדקה</string>
+	<string name="download_progress_text_seconds_remaining">%1$d%%, כמה שניות נותרו</string>
+	<string name="download_progress_text_unknown_time_remaining">%1$d%%, …מחשב את זמן ההורדה המשוער</string>
+	<string name="download_progress_text_verifying">100%, …מאמת את הקובץ</string>
+	<string name="download_progress_text_paused">%1$d%%, ההורדה נעצרה</string>
+	<string name="download_waiting_for_network">%1$d%%, …מחכה לחיבור יציב לאינטרנט</string>
 
-	<string name="download_size_megabyte">%1$d MB</string>
-	<string name="download_unknown_update_name">Oxygen OS Update</string>
+	<string name="download_size_megabyte">%1$d מ"ב</string>
+	<string name="download_unknown_update_name">עדכון Oxygen OS</string>
 
-	<string name="download_verifying">Verifying…</string>
-	<string name="download_verifying_error">File is damaged</string>
-	<string name="download_verifying_start">Your download will now be verified…</string>
+	<string name="download_verifying">…מאמת</string>
+	<string name="download_verifying_error">הקובץ שבור</string>
+	<string name="download_verifying_start">…ההורדה תאומת בעוד רגעים ספורים</string>
 
 
 	<!-- Settings strings-->
-	<string name="preference_header_support">Support us</string>
-	<string name="preference_header_device">Device</string>
-	<string name="preference_header_ui">UI</string>
-	<string name="preference_header_notifications">Notifications</string>
-	<string name="preference_header_advanced">Advanced</string>
-	<string name="preference_header_about">About</string>
+	<string name="preference_header_support">תמוך בנו</string>
+	<string name="preference_header_device">מכשיר</string>
+	<string name="preference_header_ui">שטח פנים</string>
+	<string name="preference_header_notifications">הודעות</string>
+	<string name="preference_header_advanced">מתקדם</string>
+	<string name="preference_header_about">Oxygen updater על</string>
 
-	<string name="summary_on">Enabled</string>
-	<string name="summary_off">Disabled</string>
-	<string name="summary_device">Please wait…</string>
-	<string name="summary_update_method">Select a device first</string>
-	<string name="summary_theme">Set theme</string>
-	<string name="summary_privacy_policy">View online</string>
-	<string name="summary_rate_app">Leave a 5 star review</string>
+	<string name="summary_on">מופעל</string>
+	<string name="summary_off">מושבת</string>
+	<string name="summary_device">…אנא המתן</string>
+	<string name="summary_update_method">בחר את מכשירך קודם</string>
+	<string name="summary_theme">קבע ערכת נושא</string>
+	<string name="summary_privacy_policy">צפה ברשת</string>
+	<string name="summary_rate_app">אנא דרג אותנו בחמישה כוכבים</string>
 	<string name="summary_oxygen" translatable="false">v%1$s</string>
 
-	<string name="label_buy_ad_free">Remove ads</string>
-	<string name="label_theme">Theme</string>
-	<string name="label_app_update_banner">App update banners</string>
-	<string name="label_news_warning_banner">News &amp; warning banners</string>
-	<string name="label_privacy_policy">Privacy policy</string>
-	<string name="label_rate_app">Rate this app</string>
+	<string name="label_buy_ad_free">הסר פרסומות</string>
+	<string name="label_theme">ערכת נושא</string>
+	<string name="label_app_update_banner">כרזות המציגות עדכונים על האפליקציה</string>
+	<string name="label_news_warning_banner">חדשות &amp; כרזות התראה</string>
+	<string name="label_privacy_policy">מדיניות פרטיות</string>
+	<string name="label_rate_app">דרג אפליקציה זו</string>
 
-	<string name="theme_light">Light</string>
-	<string name="theme_dark">Dark</string>
-	<string name="theme_system">System</string>
-	<string name="theme_auto">Auto</string>
+	<string name="theme_light">לבן/אור</string>
+	<string name="theme_dark">שחור/חושך</string>
+	<string name="theme_system">מערכת</string>
+	<string name="theme_auto">אוטומטי</string>
 
 	<string name="key_ad_free" translatable="false">34ejrtgalsJKDf;awljker;2k3jrpwosKjdfpio24uj3tp3oiwfjdscPOKj</string>
 	<string name="key_contributor" translatable="false">become_contributor</string>
@@ -143,86 +143,86 @@
 	<string name="key_privacy_policy" translatable="false">privacy_policy</string>
 	<string name="key_oxygen" translatable="false">oxygen_updater</string>
 
-	<string name="theme_light_subtitle">Theme with a white background and OnePlus Red primary color</string>
-	<string name="theme_dark_subtitle">Muted OnePlus Red primary color, with an almost-black background. Use this theme to save battery, especially on AMOLED screens</string>
-	<string name="theme_system_subtitle">Use the system\'s night mode (you can set this either in Display settings or in developer options). Varies by device</string>
-	<string name="theme_auto_subtitle">Switch between light and dark themes based on the time of the day, to prevent eye strain at night</string>
+	<string name="theme_light_subtitle">OnePlus ערכת נושא בעלת רקע לבן וצבע אדום המזוהה עם</string>
+	<string name="theme_dark_subtitle">.אין צבע אדום בערכת הנושא, רקע כמעת שחור לחלוטין. השתמש בערכה זו בכדי לחסוך בסוללה</string>
+	<string name="theme_system_subtitle">השתמש במצב הלילה הקיים במכשירך בכדי לקבוע באיזו ערכת נושא להשתמש</string>
+	<string name="theme_auto_subtitle">.החלף בין ערכות הנושא בהאם לזמן ביום בכדי למנוע מאמץ יתר על העיניים בלילה</string>
 	<string name="theme_additional_note">Note: if the \'Auto\' theme is active and battery saver is enabled, dark theme will automatically be used regardless of time of day to
 		conserve battery</string>
 
-	<string name="settings">Settings</string>
-	<string name="settings_buy_button_buy">Buy (%1$s)</string>
-	<string name="settings_buy_button_bought">Purchased</string>
-	<string name="settings_buy_button_not_possible">Unavailable</string>
-	<string name="settings_buy_ad_free_label">Upgrade to Ad-Free</string>
+	<string name="settings">הגדרות</string>
+	<string name="settings_buy_button_buy">(%1$s) קנה</string>
+	<string name="settings_buy_button_bought">נקנה</string>
+	<string name="settings_buy_button_not_possible">לא זמין</string>
+	<string name="settings_buy_ad_free_label">שדרג לגרסה חסרת הפרסומות</string>
 
 	<!-- TODO translate these 2 to all but Dutch / Belgian / French -->
-	<string name="settings_contribute_label">Help improve the app</string>
-	<string name="settings_contribute_button">Contribute</string>
+	<string name="settings_contribute_label">סייע בשיפור האפליקצייה</string>
+	<string name="settings_contribute_button">תרום</string>
 
-	<string name="settings_category_other">Other:</string>
-	<string name="settings_device">Device</string>
-	<string name="settings_entered_incorrectly">Error saving your settings. Please go back and select your device / update method again.</string>
+	<string name="settings_category_other">:אחר</string>
+	<string name="settings_device">מכשיר</string>
+	<string name="settings_entered_incorrectly">.תקלה בעת שמירת הגדרותיך. אנא חזור ונסה לבחור את מכשירך שנית</string>
 	<string name="settings_explanation_incremental_full_update">An incremental update can be installed from any version (except if you have an unlocked bootloader; then you should always pick the full update as update method).\n\nA beta update of OxygenOS can always be installed, as well when you\'re on a stable version. To switch from stable to beta, you have to enable the advanced mode in the settings. For the betas, the full and incremental update methods work the same way as on the stable versions.</string>
-	<string name="settings_explanation_update_methods">Explanation of the update methods</string>]
-	<string name="settings_header">Choose your device and update method:</string>
+	<string name="settings_explanation_update_methods">הסבר על אמצעי העדכון</string>]
+	<string name="settings_header">:בחר את מכשירך ואת אמצעי העדכון</string>
 
-	<string name="settings_push">Send me a notification when a:</string>
-	<string name="settings_push_from_server">Informational and warning messages</string>
-	<string name="settings_push_new_version">System update messages</string>
-	<string name="settings_push_new_device">New device is supported</string>
-	<string name="settings_push_news">News messages</string>
+	<string name="settings_push">:שלח לי הודעות על</string>
+	<string name="settings_push_from_server">מידע והתראות בטיחות</string>
+	<string name="settings_push_new_version">זמינות גרסת מערכת חדשה</string>
+	<string name="settings_push_new_device">תמיכת האפליקצייה במכשיר חדש</string>
+	<string name="settings_push_news">חדשות הנוגעות לאפליקציה</string>
 
-	<string name="settings_saved">Your settings are automatically saved.</string>
-	<string name="settings_saving">Your settings are still being saved. If this takes too long: Check your network connection, exit the app and start it again.</string>
+	<string name="settings_saved">.הגדרותיך נשמרות באופן אוטומטי</string>
+	<string name="settings_saving">.הגדרותיך עדיין באמצע תהליך השמירה. אם תהליך זה לוקח יותר מידי זמן נסה את הפעולות הבאות: בדוק את חיבורך לרשת האינטרנט, צא וסגור את האפליקצייה ולאחר מכן נסה שנית .</string>
 
-	<string name="settings_server_messages">Show messages in the app when:</string>
+	<string name="settings_server_messages">:אילו התראות והודעות להראות באפליקצייה</string>
 
-	<string name="settings_other_options">Other options:</string>
-	<string name="settings_advanced_mode">Advanced mode</string>
-	<string name="settings_advanced_mode_button_explanation">Tap this button to get more information about the advanced mode.</string>
-	<string name="settings_advanced_mode_explanation">Advanced mode hides the message \"Your system is up to date\", allowing you to download and install all updates, even though they may not be compatible with your device.\n\nThis can be useful when:\n- Updating from a regular version to a beta version\n- Reverting from a beta version to the regular version (don\'t forget to factory reset your device)\n- Reinstalling your current system version.</string>
+	<string name="settings_other_options">:אפשרויות אחרות</string>
+	<string name="settings_advanced_mode">הגדרות מתקדמות</string>
+	<string name="settings_advanced_mode_button_explanation">.לחץ על כפתור זה בכדי לקבל מידע נוסף על ההגדרות המתקדמות </string>
+	<string name="settings_advanced_mode_explanation">.הגדרות מתקדמות מסתירות את הודעת /"מערכת ההפעלה שלך נמצאת בגרסה הכי עדכנית/", הגדרה שנותן את האפשרות להוריד עדכונים גם אם הם לא מתאימים למכשירך, השימוש הוא על אחריות המשתמש בלבד \n\nThis can be useful when:\n- Updating from a regular version to a beta version\n- Reverting from a beta version to the regular version (don\'t forget to factory reset your device)\n- Reinstalling your current system version.</string>
 
 	<string name="settings_update_method">Update method</string>
 	<string name="settings_upload_logs">Share usage data and logs</string>
 
 	<!-- FAQ strings -->
-	<string name="faq">FAQ</string>
-	<string name="faq_menuitem">FAQ</string>
-	<string name="faq_no_network">No connection.</string>
-	<string name="faq_no_network_text">You\'ll need a working connection to view the FAQ page.</string>
+	<string name="faq">שאלות ותשובות</string>
+	<string name="faq_menuitem">שאלות ותשובות</string>
+	<string name="faq_no_network">.אין חיבור לאינטרנט</string>
+	<string name="faq_no_network_text">.בכדי לצפות בעמוד השאלות ותשובות מכשירך חייב להיות מחובר לרשת אינטרנט</string>
 
 	<!-- First-time setup strings -->
-	<string name="setup">Welcome</string>
-	<string name="setup_close_button">start app</string>
+	<string name="setup">ברוכים הבאים</string>
+	<string name="setup_close_button">התחל את האפליקצייה</string>
 
-	<string name="setup_page_1_title">Welcome to Oxygen Updater!</string>
-	<string name="setup_page_1_text">This app will allow you to:\n\n- Get faster access to the latest Android updates for your OxygenOS powered device\n\n- Easily update a rooted device\n\n- View what\'s new in the system software you are currently using\n\n- Read the latest news about OnePlus and OxygenOS\n\nSwipe to the left to continue.</string>
-	<string name="setup_page_2_title">Important notice:</string>
-	<string name="setup_page_2_text">This is not an official OnePlus application. Usage of this app is completely at your own risk. Neither OnePlus nor the developer of the app are liable for your actions, including any damage caused by using this app. \n\nBy using this app, you agree to the terms and conditions as stated above.\n\nSwipe to the left to continue.</string>
-	<string name="setup_page_3_title">Choose your device:</string>
-	<string name="setup_page_3_text">Your device is usually already selected above. If not, select your device above.\n\nSwipe to the left to continue.</string>
-	<string name="setup_page_4_title">Choose your update method:</string>
+	<string name="setup_page_1_title">Oxygen Updater -ברוכים הבאים ל!</string>
+	<string name="setup_page_1_text">:אפליקצייה זו נותנת לך את האפשרות ל\n\n- Get faster access to the latest Android updates for your OxygenOS powered device\n\n- Easily update a rooted device\n\n- View what\'s new in the system software you are currently using\n\n- Read the latest news about OnePlus and OxygenOS\n\nSwipe to the left to continue.</string>
+	<string name="setup_page_2_title">:חשוב לציין</string>
+	<string name="setup_page_2_text">.כל שימוש באפליקצייה זו הוא על אחריות המשתמש בלבד .OnePlus אפליקצייה זו אינה אפליקצייה רשמית של Neither OnePlus nor the developer of the app are liable for your actions, including any damage caused by using this app. \n\nBy using this app, you agree to the terms and conditions as stated above.\n\nSwipe to the left to continue.</string>
+	<string name="setup_page_3_title">:בחר את מכשירך</string>
+	<string name="setup_page_3_text">.בדרך כלל מכשירך אמור להיות מסומן כבר. אם לא אנא בחר אותו מהרשימה למעלה\n\nSwipe to the left to continue.</string>
+	<string name="setup_page_4_title">:בחר את שיטת העדכון שלך</string>
 	<string name="setup_page_4_text">Usually, the incremental update is the right choice here, because it offers much faster and smaller downloads.\n\nHowever, it\'s not compatible with rooted devices. If you have a rooted device, choose the Full update.\n\nIf you have a beta version of OxygenOS, choose (one of) the Open Beta update method(s).\n\nSwipe to the left to continue.</string>
-	<string name="setup_page_5_title">You are ready to go!</string>
-	<string name="setup_page_5_text">Enjoy using this app!\n\nYou can always change your settings later on. To do so: Tap the three dots in the top right corner, and tap on \"Settings\".</string>
+	<string name="setup_page_5_title">סיימת את שלב ההיכרות</string>
+	<string name="setup_page_5_text">!תהנה משימוש באפליקצייה זו\n\nYou can always change your settings later on. To do so: Tap the three dots in the top right corner, and tap on \"Settings\".</string>
 
 	<!-- Automatic install strings -->
-	<string name="install">Install</string>
-	<string name="install_checking_root">Checking if your device is rooted…</string>
-	<string name="install_grant_root_permissions">Please allow root access when asked.</string>
-	<string name="install_going_back_not_possible">Unfortunately, you can\'t go back now</string>
-	<string name="install_preparing_installation">Preparing installation…</string>
+	<string name="install">התקן</string>
+	<string name="install_checking_root">…בדוק אם מכשירך פרוץ</string>
+	<string name="install_grant_root_permissions">.אנה אשר את האפליקצייה בפריצה כשתתבקש</string>
+	<string name="install_going_back_not_possible">לצערינו אין דרך חזרה מעכשיו</string>
+	<string name="install_preparing_installation">…מתכונן להתקנה</string>
 
-	<string name="install_recovery_installer_title">Update Installer&#160;&#160;</string> <!-- Add 2 spaces to the end -->
-	<string name="install_recovery_backing_up">Backing up your device. This will take a while!</string>
-	<string name="install_recovery_clearing_cache">Clearing the cache partition…</string>
-	<string name="install_recovery_done">Done. Your device will restart.</string>
-	<string name="install_recovery_installing_additional_zip">Installing the additional ZIP file…</string>
-	<string name="install_recovery_installing_update">Installing the update…</string>
-	<string name="install_recovery_thank_you">Thank you for using Oxygen Updater. If you like this app, please rate it 5 stars at Google Play :-)</string>
+	<string name="install_recovery_installer_title">מוריד העדכון  &#160;&#160;</string> <!-- Add 2 spaces to the end -->
+	<string name="install_recovery_backing_up">!אנו מגבים את מכשירך. תהליך זה יקח זמן</string>
+	<string name="install_recovery_clearing_cache">…מנקים את שאריות האחסון הלא נחוץ במכשירך</string>
+	<string name="install_recovery_done">.סיימנו. בעוד זמן קצר מאוד מכשירך יאותחל</string>
+	<string name="install_recovery_installing_additional_zip">…מוריד קבצים נוספים הנחוצים לעדכון</string>
+	<string name="install_recovery_installing_update">…מתקים את העדכון</string>
+	<string name="install_recovery_thank_you">.תודה לך על שהשתמשת באפליקצייה זו. אם אהבת אותה אנא דרג אותה בחמישה כוכבים החנות האפליקציות של גוגל :-)</string>
 
-	<string name="install_error_write_script_failed">"Failed to prepare the installation of the update. Did you allow root access?"</string>
+	<string name="install_error_write_script_failed">"?נסיון העדכון נכשל. האם אישרת לאפליקצייה להשתמש בפריצה של הטלפון"</string>
 
 	<string name="install_options_backup">Backup my device</string>
 	<string name="install_options_header">You may customize the installation process by changing the options shown below. Tap on \'Start installation\' to start the installation of the update.</string>
