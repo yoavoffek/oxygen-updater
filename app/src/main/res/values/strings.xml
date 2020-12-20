@@ -153,7 +153,7 @@
 	<string name="settings">הגדרות</string>
 	<string name="settings_buy_button_buy">(%1$s) קנה</string>
 	<string name="settings_buy_button_bought">נקנה</string>
-	<string name="settings_buy_button_not_possible">לא זמין</string>
+	<string name="settings_buy_button_not_possible">הרכישה נכשלה</string>
 	<string name="settings_buy_ad_free_label">שדרג לגרסה חסרת הפרסומות</string>
 
 	<!-- TODO translate these 2 to all but Dutch / Belgian / French -->
@@ -209,8 +209,8 @@
 
 	<!-- Automatic install strings -->
 	<string name="install">התקן</string>
-	<string name="install_checking_root">…בדוק אם מכשירך פרוץ</string>
-	<string name="install_grant_root_permissions">.אנה אשר את האפליקצייה בפריצה כשתתבקש</string>
+	<string name="install_checking_root">בדוק את הרוט במכשירך</string>
+	<string name="install_grant_root_permissions">אשר גישה לרוט</string>
 	<string name="install_going_back_not_possible">לצערינו אין דרך חזרה מעכשיו</string>
 	<string name="install_preparing_installation">…מתכונן להתקנה</string>
 
@@ -224,103 +224,103 @@
 
 	<string name="install_error_write_script_failed">"?נסיון העדכון נכשל. האם אישרת לאפליקצייה להשתמש בפריצה של הטלפון"</string>
 
-	<string name="install_options_backup">Backup my device</string>
+	<string name="install_options_backup">גבה את מכשירי</string>
 	<string name="install_options_header">You may customize the installation process by changing the options shown below. Tap on \'Start installation\' to start the installation of the update.</string>
-	<string name="install_options_keep_root">Keep my device rooted</string>
-	<string name="install_options_reboot_after_install">Reboot after installation</string>
-	<string name="install_options_select_root_package">Select the root package to install…</string>
-	<string name="install_options_start_install">Start installation</string>
-	<string name="install_options_title">Choose your install options</string>
-	<string name="install_options_wipe_cache_partition">Wipe the cache partition</string>
+	<string name="install_options_keep_root">השאר את מכשירי עם רוט</string>
+	<string name="install_options_reboot_after_install">הפעל מחדש לאחר ההתקנה</string>
+	<string name="install_options_select_root_package">בחר את חבילת הרוט</string>
+	<string name="install_options_start_install">התחל את ההתקנה</string>
+	<string name="install_options_title">בחר את אפשרויות ההתקנה</string>
+	<string name="install_options_wipe_cache_partition">מחק את קבצי המטמון</string>
 
-	<string name="install_options_explanation_title">What do these options mean?</string>
+	<string name="install_options_explanation_title">מה משמעות האופציות האלו (באנגלית)</string>
 	<string name="install_options_explanation_backup">Backup my device:\nWhen you select this option, a backup of your system, apps and settings will be made prior to the installation. Always handy to have, in case something goes horribly wrong.</string>
 	<string name="install_options_explanation_keep_root">Keep my device rooted:\nWhen you select this option, you may specify a root package which will be installed after the update is installed. This ensures that your device stays rooted. Please note that this root package must be compatible with the NEW OxygenOS version you are going to install!</string>
 	<string name="install_options_explanation_wipe_cache">Wipe the cache partition:\nWhen you select this option, the cache partition will be wiped after the update has been installed. This ensures your device performs optimally and also reduces the likelihood of experiencing bugs caused by the installation of the update.</string>
 	<string name="install_options_explanation_reboot">Reboot after installation:\nWhen you select this option, your device will automatically reboot back to OxygenOS after the update is installed. Otherwise, your device will stay in Recovery Mode, where you can install additional packages.</string>
 
-	<string name="install_select_method_title">How do you want to install this update?</string>
-	<string name="install_select_method_automatic_title">Automatic installation*</string>
-	<string name="install_select_method_automatic_image">Automatic installation image</string>
+	<string name="install_select_method_title">איך תרצה להוריד את העדכון?</string>
+	<string name="install_select_method_automatic_title">*הורדה אוטומטית</string>
+	<string name="install_select_method_automatic_image">הורדת תמונת עדכון אוטומטית</string>
 	<string name="install_select_method_automatic_description">The easiest way to install the update.\nYour device will restart to install the update.\n\n* Requires root access and TWRP recovery.</string>
 
-	<string name="install_select_method_manual_title">Manual installation</string>
-	<string name="install_select_method_manual_image">Manual installation image</string>
+	<string name="install_select_method_manual_title">הורדה ידנית</string>
+	<string name="install_select_method_manual_image">הורדת תמונת עדכון ידנית</string>
 	<string name="install_select_method_manual_description">Read the install guide to learn how to install the update. You will install the update using the Recovery Mode of your device.</string>
 
-	<string name="install_temporary_error">A temporary error occurred while preparing the installation of the update. Please try it again.</string>
+	<string name="install_temporary_error">.תקלה התרחשה בזמן ההכנות להורדת העדכון. אנא נסה שנית מאוחר יותר</string>
 
-	<string name="install_verify_error_title">Installation failed</string>
-	<string name="install_verify_error_nothing_installed">Error when installing the update. No changes were made to the software of your device. Try installing the update again.</string>
-	<string name="install_verify_error_unable_to_verify">Failed to check if the update was installed successfully. Please open Oxygen Updater to see if the update was installed successfully.</string>
+	<string name="install_verify_error_title">ההתקנה נכשלה</string>
+	<string name="install_verify_error_nothing_installed">.תקלה בזמן התקנת העדכון. לא בוצעו שינויים למכשירך. נסה להוריד את העדכון מחדש</string>
+	<string name="install_verify_error_unable_to_verify">.לא הצלחנו לבדוק אם העדכון הותקן בהצלחה. אנא פתח את האפליקציה בשביל לוודא שהעדכון אכן הותקן</string>
 	<string name="install_verify_error_wrong_version_installed">A different version of OxygenOS was installed. Don\'t select an OxygenOS update file when choosing a root package under the "Keep my device rooted" option.</string>
 
-	<string name="install_verify_success_title">Installation complete</string>
-	<string name="install_verify_success_message">OxygenOS version %1$s has been installed successfully.</string>
+	<string name="install_verify_success_title">ההתקנה הושלמה</string>
+	<string name="install_verify_success_message">גרסת המערכת %1$s הותקנה בהצלחה</string>
 
-	<string name="install_zip_file_clear">Clear root package file</string>
-	<string name="install_zip_file_pick">Choose root package file</string>
-	<string name="install_zip_file_placeholder">Select a root package…</string>
-	<string name="install_zip_file_wrong_file_type">You may only select a zip file. Please select the right file.</string>
+	<string name="install_zip_file_clear">נקה את קובץ הרוט</string>
+	<string name="install_zip_file_pick">בחר את קובץ הבוט</string>
+	<string name="install_zip_file_placeholder">בחר קובץ רוט</string>
+	<string name="install_zip_file_wrong_file_type">.ניתן לבחור אך ורק בקובץ zip. אנא וודא כי בחרת בקובץ הנכון</string>
 
 	<!-- Install guide strings -->
-	<string name="install_guide_no_root">Install the update according to the instructions shown in the install guide.</string>
-	<string name="install_guide_automatic_install_disabled">Automatic installations have been temporarily disabled due to reported technical issues. Install the update according to the instructions shown in the install guide.</string>
-	<string name="install_guide">Install guide</string>
-	<string name="install_guide_loading">Loading the installation guide …</string>
+	<string name="install_guide_no_root">.התקן את העדכון בהתאם להנחיות המפורטות בתפריט ההורדה</string>
+	<string name="install_guide_automatic_install_disabled">.העדכון האוטומטי הופסק בשל דיווח על בעיה טכנית. התקן את העדכון בהתאם להנחיות המפורטות בתפריט ההורדה</string>
+	<string name="install_guide">מדריך הורדה והתקנה</string>
+	<string name="install_guide_loading">טוען את מדריך ההורדה וההתקנה</string>
 	<string name="install_guide_title">Install guide - %1$d of %2$d</string>
 	<string name="install_guide_image_description">Contextual image. Please tap on a lower place on the screen to hear the install guide.</string>
 	<string name="install_guide_header">Swipe &lt;- -&gt; to navigate between pages.</string>
-	<string name="install_guide_tip">- It\'s recommended to write all steps down, as you\'ll need to power off your device during the installation of the update.</string>
+	<string name="install_guide_tip">-.רצוי לכתוב את כל הצעדים לא על הטלפון משום שהוא יהיה כבוי בזמן ההורדה</string>
 
-	<string name="install_guide_page_1_title">Download the update.</string>
+	<string name="install_guide_page_1_title">.הורד את העדכון</string>
 	<string name="install_guide_page_1_text">- Press the Download button to start downloading the update.\n\n- The download progress will appear in the app, and as a notification in your notifications screen.\n\n- When the download has finished, you\'ll see a notification with the text \"Download complete\".\nIf a download error occurred, open the app and try to downloading the update again. If this doesn\'t work, make sure you have a working connection. Otherwise, contact the developer of the app. You can do this by visiting the \"My apps\" section of the Google Play Store.</string>
 
 	<string name="install_guide_page_2_title">Enter Recovery Mode.</string>
 	<string name="install_guide_page_2_text">- First, power off your device.\n\n- Then, press both the power and the volume down buttons at the same time.\n\n- Your device will now start in Recovery Mode. Wait until you see the recovery menu on your screen.</string>
 
-	<string name="install_guide_page_3_title">Install the downloaded update.</string>
+	<string name="install_guide_page_3_title">.התקן את העדכון שהורדת</string>
 	<string name="install_guide_page_3_text">- Within the recovery menu, choose your desired language first. Next, tap on (or use the volume buttons to navigate and the power button to select) \"Install from SD\".\n\n- Next, scroll down using the volume down key until you find a row with the \".zip\" file with the file name shown within the app. (Usually, this is a file starting with \"OnePlusOxygen-\").\n\n- Installation of the update will start automatically.</string>
 
-	<string name="install_guide_page_4_title">Restart your device.</string>
+	<string name="install_guide_page_4_title">.הםעל מחדש את מכשירך</string>
 	<string name="install_guide_page_4_text">- When the installation of the update is finished, you\'ll be back at the Recovery Menu. Within the recovery menu, tap on \"Reboot\".\n\n- Your device will show its startup screen for a long time during starting up.\n\n- Afterwards, you\'ll see a white message with the title \"Android is upgrading\", while your apps are being optimized.</string>
 
-	<string name="install_guide_page_5_title">Done. Enjoy the new Oxygen OS version!</string>
+	<string name="install_guide_page_5_title">!סיימת. תהנה מגרסת המערכת החדשה</string>
 	<string name="install_guide_page_5_text">- After your device has finished optimizing its apps, the update has been successfully installed.\nTo verify this, you can check the current version of your system as following:\n\n- Go to Settings, tap on \"About Phone\", and check the Oxygen OS Version.\n\n- If you like this app, give it 5 stars at Google Play!</string>
 
-	<string name="install_guide_close_button">Close Installation Guide</string>
+	<string name="install_guide_close_button">סגור את מדריך ההתקנה</string>
 
-	<string name="install_guide_zip_file_deleted">The root package file you specified no longer exists. Please select a new root package above.</string>
-	<string name="install_guide_zip_file_picker_title">Select a root package</string>
-	<string name="install_guide_zip_file_missing">"If you want to keep your device rooted, you'll have to specify a root package above."</string>
+	<string name="install_guide_zip_file_deleted">.הקובץ שהגדרת לא קיים יותר. אנא בחר קובץ רוט חדש</string>
+	<string name="install_guide_zip_file_picker_title">בחר קובץ</string>
+	<string name="install_guide_zip_file_missing">".אם תרצה להשאיר את מכשירך עם רוט, אתה חייב להגדיר את קובץ הרוט"</string>
 
 	<!-- Device information strings -->
-	<string name="device_information_hardware_header">Hardware</string>
-	<string name="device_information_software_header">Software</string>
+	<string name="device_information_hardware_header">חומרה</string>
+	<string name="device_information_software_header">תוכנה</string>
 
-	<string name="device_information_amount_of_memory">Amount of RAM:</string>
-	<string name="device_information_cpu_frequency">Processor Frequency:</string>
+	<string name="device_information_amount_of_memory">:כמות ראם</string>
+	<string name="device_information_cpu_frequency">:תדר המעבד</string>
 	<string name="device_information_device_name" translatable="false">%1$s %2$s</string>
 	<string name="device_information_gigahertz" translatable="false">%1$s GHz</string>
-	<string name="device_information_header">My device</string>
-	<string name="device_information_header_short">My device</string>
-	<string name="device_information_image_description">Device image</string>
-	<string name="device_information_incremental_os_version">Incremental OS version:</string>
-	<string name="device_information_os_version">Android version:</string>
-	<string name="device_information_oxygen_os_version">OxygenOS version:</string>
-	<string name="device_information_oxygen_os_ota_version">OTA version:</string>
-	<string name="device_information_patch_level_version">Security patch date:</string>
-	<string name="device_information_serial_number">Serial number:</string>
+	<string name="device_information_header">המכשיר שלי</string>
+	<string name="device_information_header_short">המכשיר שלי</string>
+	<string name="device_information_image_description">תמונת המכשיר</string>
+	<string name="device_information_incremental_os_version">:גרסת מערכת ההפעלה</string>
+	<string name="device_information_os_version">:גרסת אנדרואיד</string>
+	<string name="device_information_oxygen_os_version">:גרסת אוקסיג'ן OS</string>
+	<string name="device_information_oxygen_os_ota_version">:גרסת המערכת</string>
+	<string name="device_information_patch_level_version">:תאריך עדכון האבטחה</string>
+	<string name="device_information_serial_number">:מספר סידורי</string>
 	<string name="device_information_system_on_a_chip">System on a Chip:</string>
-	<string name="device_information_unknown">unknown</string>
-	<string name="device_information_your_device">Your device: </string>
+	<string name="device_information_unknown">לא ידוע</string>
+	<string name="device_information_your_device">:מכשירך</string>
 
 	<!-- About screen strings -->
-	<string name="about">About this app</string>
-	<string name="about_app_description">The ultimate tool for Oxygen OS updates.</string>
+	<string name="about">על האפליקציה</string>
+	<string name="about_app_description">.הכלי המושלם לעדכוני Oxygen OS</string>
 	<string name="about_background_story">This app was originally developed by Arjan Vlek as a follow-up of another one of his apps, called <a href="https://cyanogenupdatetracker.com/">Cyanogen Update Tracker</a> (it provides similar functionality for Cyanogen OS users).\n\nAfter 4 years, in July 2019, Arjan decided to step down from both projects and transferred ownership of the app to a team of developers hailing from different countries. They took on the responsibility of providing the community with excellent service &amp; support of getting OnePlus updates faster.\nYou can find more information about the announcement <a href="https://oxygenupdater.com/api/v2.4/news-content/81/EN">here</a>.\n\n14th August 2019 marked the first release under new ownership, which came with new features like dark mode and a complete redesign.\n\nFor more information on the team, check <a href="https://oxygenupdater.com/team/">the website</a>.\n\n\nPlease note, this is not an official OnePlus application. \nThe OnePlus name, the OnePlus Logo and OxygenOS are property of OnePlus. \nAndroid, Google, Google Play and the Google Play logo are registered trademarks of Google Inc. \nThis app uses data from OnePlus and its parent company Oppo to show update information.\n\nIf you like this app, please rate it on the Play Store now:</string>
-	<string name="about_rate_app_button_text">Rate on Google Play</string>
-	<string name="about_version">Version: %1$s</string>
+	<string name="about_rate_app_button_text">דרג אותנו בחנות האפליקציות של גוגל</string>
+	<string name="about_version">version: %1$s</string>
 
 
 	<!-- LocalNotifications strings -->
@@ -335,22 +335,22 @@
 	<string name="progress_notification_channel_description">Displays all non-important notifications of the Oxygen Updater app. Contains the status indicators shown during downloading.</string>
 
 	<!-- Help strings -->
-	<string name="help">Help</string>
+	<string name="help">עזרה</string>
 	<string name="help_text">Welcome to the help section of Oxygen Updater.\n\nHelp covers the following topics:\n\n• Updating your device\n• Reading the latest news\n• Viewing device information\n• Changing settings\n\nScroll down to browse through the topics.</string>
-	<string name="help_updating_your_device_title">Updating your device</string>
+	<string name="help_updating_your_device_title">עדכון המכשיר</string>
 	<string name="help_updating_your_device_text">When opening the app, you\'ll see if a system update is available. If an update is available, you can install it.\n\nTo start the installation, tap the \"Download\" button (below the update description) to start the download. When the download has finished, the installation screen pops up. If you left the app or the screen didn\'t pop up, tap the \"Install\" button, which is now shown next to the \"Download\" button.\n\nThe install screen will first check if you have a rooted device. If you have a rooted device, grant root permission when asked and choose how you want to install the update. Otherwise, follow the instructions for Manual install.\n\nAutomatic install:\nYou\'ll only have to choose your install options. The default settings are recommended, except that you have to specify the root package which needs to be (re)installed. Select a root package (zip file) using the blue folder button and tap on \"Start install\" to start the installation.\n\nManual install:\nYou\'ll see an installation guide on your screen. Write the instructions down and perform them as stated to install the update.</string>
-	<string name="help_reading_news_title">Reading the latest news</string>
+	<string name="help_reading_news_title">קריאת חדשות</string>
 	<string name="help_reading_news_text">News is displayed to the left of the Update screen. The most recent items appear on top. Just tap on an item to read it.\nTap the back arrow or press your back key to return to the news items screen.</string>
-	<string name="help_device_information_title">Viewing information about your device</string>
+	<string name="help_device_information_title">צפה במידע על מכשירך</string>
 	<string name="help_device_information_text">You may view some of the specifications of your device using the screen to the right of the Update screen. This comes in handy when making a support request, during which you might be asked for some of the specifications of your device.</string>
-	<string name="help_change_settings_title">Changing settings</string>
+	<string name="help_change_settings_title">שנה הגדרות</string>
 	<string name="help_change_settings_text">You can change your settings by tapping the three dots in the top right, following a tap on Settings.\nYou can change the following settings:\n\n• Device and update method\n• Push notifications\n• In app notifications\n• Privacy settings (log uploading).\n\nUse the switches to turn notification / privacy settings on and off. Select a device and / or update method using the dropdown menus shown above the switches. Dropdown menus not visible? Check your Internet connection and open the Settings screen again.</string>
 
 	<!-- News strings -->
-	<string name="news">News</string>
-	<string name="news_author">Author: %1$s</string>
-	<string name="news_date_published">Last update: %1$s</string>
-	<string name="news_empty">This article has no contents.</string>
+	<string name="news">חדשות</string>
+	<string name="news_author">כותב: %1$s</string>
+	<string name="news_date_published">עודכן לאחרונה: %1$s</string>
+	<string name="news_empty">.כתבה זו ריקה מתוכן</string>
 	<string name="news_load_error">Failed to open article. Check your connection and press the \'RETRY\' button to open the article.</string>
 
 	<!-- Contribute strings -->
@@ -368,33 +368,33 @@
 	<string name="contribute_successful_notification_text">Thanks for sharing the update file %1$s with our admins!</string>
 
 	<!-- Error strings-->
-	<string name="error_app_outdated">Oh no!</string>
+	<string name="error_app_outdated">אוי לא!</string>
 	<string name="error_app_outdated_message">This version of the app is outdated. It\'s time to update it! Tap on \"Google Play\" below. Within Google Play, tap on \"Update\".</string>
-	<string name="error_app_requires_network_connection">No connection</string>
-	<string name="error_app_requires_network_connection_message">Failed to connect to the server. Please make sure you have a working connection. The app will now close.</string>
-	<string name="error_button_retry">Retry</string>
-	<string name="error_exit_button_text">Exit</string>
-	<string name="error_google_play_button_text">Google Play</string>
-	<string name="error_no_internet_connection">No connection.</string>
-	<string name="error_maintenance">Server maintenance</string>
-	<string name="error_maintenance_message">Please wait. The server will be available very soon.</string>
-	<string name="error_push_failure">Failed to enable notifications. Fully close the app, and start it again after waiting a few minutes.</string>
-	<string name="error_reload">Reload</string>
+	<string name="error_app_requires_network_connection">אין חיבור לאינטרנט</string>
+	<string name="error_app_requires_network_connection_message">.נכשל להתחבר לשרת. אנא וודא שמכשירך מחובר באופן תקין לרשת אינטרנט. אפליקציה זו עכשיו תסגר</string>
+	<string name="error_button_retry">נסה מחדש</string>
+	<string name="error_exit_button_text">יציאה</string>
+	<string name="error_google_play_button_text">גוגל פליי</string>
+	<string name="error_no_internet_connection">.אין חיבור לאינטרנט</string>
+	<string name="error_maintenance">אנו מבצעים תחזוקת שרתים</string>
+	<string name="error_maintenance_message">.אנא המתן. השרת יהיה זמין בקרוב</string>
+	<string name="error_push_failure">.נכשל בהפעלת ההודעות. סגור את האפליקציה לחלוטין, חכה מספר דקות ונסה שנית</string>
+	<string name="error_reload">טען מחדש</string>
 
-	<string name="error_unable_to_rate_app">You can\'t rate the app, because the Google Play Store is missing on your device.</string>
+	<string name="error_unable_to_rate_app">.אתה לא יכול לדרג את האפליקציה מפני שחנות האפליקציות של גוגל חסרה במכשירך</string>
 
 	<!-- Message strings -->
-	<string name="delete_message_title">Update already downloaded</string>
+	<string name="delete_message_title">העדכון כבר הורד</string>
 	<string name="delete_message_contents">You have already downloaded this update, but not yet installed it. Tap on \"Install Guide\" to view how to install this update. Tap on \"Delete\" to permanently delete the file. Press the Back button to close this message.</string>
-	<string name="delete_message_delete_button">Delete</string>
+	<string name="delete_message_delete_button">מחק</string>
 
-	<string name="unsupported_device_warning_title">Unsupported device</string>
+	<string name="unsupported_device_warning_title">מכשירך לא נתמך</string>
 	<string name="carrier_exclusive_device_warning_message">It looks like you\'re using a carrier-exclusive device. Even though you\'re running OxygenOS, you won\'t be able to install updates. Carriers usually lock down the device so that users can\'t update or modify the firmware without permission from the carrier itself. This is a common practice in the USA: the "Local Upgrade" option is removed from carrier-exclusive versions of OxygenOS. This option is necessary to install updates by yourself, even if you don\'t use this app. Unfortunately, we can\'t do anything about this, as we\'re technically, and possibly, legally limited. Reach out to us via email or Discord for more clarity.</string>
 	<string name="unsupported_device_warning_message">Congratulations on your new OnePlus device! Unfortunately, we haven\'t added support for this device yet. Don\'t worry though, we\'ll add it as soon as we can. We don\'t like making mistakes, and it\'s a time-consuming process to verify and test support for new devices, so please be patient. Email us or join our Discord server if you\'d like to help us, or to get notified when we release a new version of the app that includes support for your device.</string>
 	<string name="unsupported_os_warning_message">It looks like your device is not running OxygenOS. Please note that you can only install system updates on devices running Oxygen OS. \n\nOther devices, including OnePlus devices running Custom ROMs, are not supported.</string>
 	<string name="unsupported_device_warning_checkbox_title">Don\'t show this warning again</string>
 
-	<string name="root_check_title">Root access</string>
+	<string name="root_check_title">גישה לרוט</string>
 	<string name="root_check_message">Oxygen Updater offers easy, automated update installations for users with a rooted devices. However, incremental updates are not available for rooted devices. Oxygen Updater can check if you have root access to only offer appropriate update methods. \n\nIf you have root access, allow Oxygen Updater to obtain root access after closing this message. \n\nNo root access? Press \"Close\" and continue using the app.</string>
 
 	<!-- Purchasing strings -->
@@ -402,10 +402,10 @@
 	<string name="purchase_error_after_payment">The purchase of the ad-free version failed, because an internal error occurred. Please try again in a few minutes. If you have already paid, please contact Google Play support for assistance.</string>
 
 	<!-- Other strings-->
-	<string name="icon">Icon</string>
-	<string name="loading">Loading…</string>
-	<string name="processing">Processing…</string>
-	<string name="choose_file">Select a file</string>
+	<string name="icon">אייקון</string>
+	<string name="loading">טוען</string>
+	<string name="processing">…מעבד מידע</string>
+	<string name="choose_file">בחר קובץ</string>
 	<string name="advertising_app_id" translatable="false">ca-app-pub-1816831161514116~4275332954</string>
 	<string name="advertising_banner_unit_id" translatable="false">ca-app-pub-1816831161514116/9792024147</string>
 	<string name="advertising_interstitial_unit_id" translatable="false">ca-app-pub-1816831161514116/8641953374</string>
